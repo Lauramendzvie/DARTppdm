@@ -1,0 +1,57 @@
+lib é aonde será colocado o código das telas (arquivos em dart) /
+
+pubspeck é o arquivo que vamos colocar as bibliotecas / 
+
+coloca as bibliotecas a partir da linha 36 de *pubspec.yaml*, pq está dentro de dependencies /
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+para adicionar imagens no seu projeto, a linha 62 e 63 tem um comentário aonde você vai por o path da sua pasta / imagem etc /
+
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+
+quando você baixa uma fonte .TTF e coloca dentro da pasta fontes do seu projeto, para usa-lá você precisa tirar o comentário da linha 77 a 80, exemplo:
+
+
+# fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+
+
+todas as minhas telas vao ficar dentro de lib, posso criar uma pasta screens por exemplo pra poder por minhas telas, a única regra é que esteja dentro de libs
+
+cada componente é uma classe 
+
+import 'package:flutter/material.dart';
+biblioteca componentes do flutter
+
+
+void main() {
+função principal
+
+
+tela estática: stateless
+tela dinâmica: statefull
+
+
+
+
+
+
