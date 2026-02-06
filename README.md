@@ -1,4 +1,4 @@
-# aula1
+# First Time making use of flutter and Dart to create a few blocks and understand more about styling a mobile screen
 
 A new Flutter project.
 
